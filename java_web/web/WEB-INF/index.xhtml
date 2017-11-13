@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="https://primefaces.org/ui"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      >
+<h:head>
+</h:head>
+<h:body>
+    <b:navBar style="background:#515151;">
+        <h:graphicImage value="resources/images/mainIcon.png" alt="main icon"  style="float: left;width: 40px;height:30px;vertical-align: top"></h:graphicImage>
+        <h:form class="navbar-form navbar-left hidden-md hidden-sm hidden-xs" role="search">
+            <div class="form-group">
+            <!--> <h:inputText type="text" class="form-control"/><-->
+                <input type="text" class="form-control" />
+         </div>
+
+
+         <h:commandButton id="serach_button" type="submit" value="Search" ></h:commandButton>
+
+
+        </h:form>
+
+
+        <b:navbarLinks pull="right">
+            <b:navLink value="Login" href="#"></b:navLink>
+            <b:navLink value="Join" href="#"></b:navLink>
+
+        </b:navbarLinks>
+
+    </b:navBar>
+
+
+
+
+</h:body>
+</html>
