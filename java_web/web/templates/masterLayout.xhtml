@@ -9,10 +9,12 @@
 
 </h:head>
 <h:body>
-    <ui:insert name="header">
+   <ui:insert name="header">
         <ui:include src="header.xhtml"></ui:include>
 
     </ui:insert>
+
+    <div style="padding-top: 50px">
 
 
     <ui:insert name="left">
@@ -23,6 +25,7 @@
     <ui:insert name="content">
         <ui:include src="content.xhtml"></ui:include>
     </ui:insert>
+    </div>
 
     <ui:insert name="footer">
         <ui:include src="footer.xhtml"></ui:include>
